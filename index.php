@@ -73,7 +73,7 @@ try {
 // UNLIMITED SPAM!
 // for ($x = 1; $x <= 10; $x--) {
 // But For Now....
-// Just 10 New Spam Accounts 9 + 1 (tweaked)
+// Just A Form..
 for ($x = 0; $x <= $USER_COUNT -1; $x++) {
 
 // Generate User Name
