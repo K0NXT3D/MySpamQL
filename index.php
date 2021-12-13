@@ -62,9 +62,6 @@ if ($conn->query($sql) === TRUE) {
   echo "<p><b>Error Creating Database: " . $conn->error;
 }
 
-
-
-
 try {
   $conn = new PDO("mysql:host=$DATABASE_HOST;dbname=$DATABASE_NAME", $DATABASE_USER, $DATABASE_PASS);
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
